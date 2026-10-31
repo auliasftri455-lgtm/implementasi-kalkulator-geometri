@@ -6,7 +6,6 @@ Kalkulator Geometri Berbasis Python merupakan program sederhana untuk menghitung
 
 ## Fitur Program
 
-Program ini memiliki beberapa fitur, yaitu:
 1. Menghitung luas dan keliling persegi.
 2. Menghitung luas dan keliling persegi panjang.
 3. Menghitung luas dan keliling segitiga.
@@ -29,6 +28,23 @@ Program ini memiliki beberapa fitur, yaitu:
 | 3 | Ayu Syarifatu Zahra | 2225250043 |
 | 4 | Zahwa Ajmala Fitriani | 2225250191 |
 
+## Struktur Folder
+
+```text
+implementasi-kalkulator-geometri/
+├── src/
+│   ├── main.py
+│   ├── persegi.py
+│   ├── persegi_panjang.py
+│   ├── segitiga.py
+│   ├── lingkaran.py
+│   └── utilitas.py
+├── tests/
+│   └── test_case.md
+├── .gitignore
+└── README.md
+```
+
 ## Cara Menjalankan Program
 
 1. Pastikan Python sudah terpasang di laptop.
@@ -42,6 +58,19 @@ python src/main.py
 
 5. Ikuti petunjuk menu yang ditampilkan oleh program.
 
+## Pengujian Program
+
+Pengujian dilakukan terhadap fitur perhitungan dan validasi input. Hasil pengujian mencakup:
+
+- Perhitungan luas dan keliling persegi.
+- Perhitungan luas dan keliling persegi panjang.
+- Perhitungan luas dan keliling segitiga.
+- Perhitungan luas dan keliling lingkaran.
+- Pengujian input negatif dan nol.
+- Pengujian sisi segitiga yang tidak valid.
+
+Dokumentasi hasil pengujian dapat dilihat pada file `tests/test_case.md`.
+
 ## Repository GitHub
 
-https://github.com/auliasftri455-lgtm/proyek-akhir-kalkulator-geometri
+https://github.com/auliasftri455-lgtm/implementasi-kalkulator-geometri
